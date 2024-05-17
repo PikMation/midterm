@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#container {
+    margin: 0 auto;   
+    width: 80%;        
+  }
+  
+  header {
+    width: 100%;        
+    border: 1px solid blue;
+    background-color: lightblue;
+    line-height: 3em;
+  }
+  
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li{
+    width: 100%;
+    list-style-type: none;
+    border: 1px solid green;
+    text-align: center;
+    background-color: lightseagreen;
+  }
+  li {
+    display: block;
+    width: 150px;
+    line-height: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+  }
+  
+  nav li.logo{
+    margin: 0;
+    padding: 0;
+    flex: 8;
+    text-align: left;
+    
+  }
+  #content {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  #sidebar-one, #sidebar-two, #sidebar-three{
+    border:1px red solid;
+    width: 30%;
+    background-color: aliceblue;
+  }
+  img {
+    width: 50%;
+  }
+
+  .art{
+    width: 100%;
+  }
+
+  aside img{
+    width: 100%;
+    height: 250px;
+  }
+  
+  #footer {
+  
+    width: 100%;        /* This sets the footer to stretch the full page width */
+    border: 1px solid black;
+    background-color: lightgray;
+  }
